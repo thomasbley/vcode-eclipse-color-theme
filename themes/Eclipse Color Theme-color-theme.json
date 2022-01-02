@@ -2,10 +2,131 @@
 	"name": "Eclipse Color Theme",
 	"type": "light",
 	"colors": {
-		"editor.background": "#f5f5f5",
-		"editor.foreground": "#000000"
+		"editor.background": "#fcfcfc",
+		"editor.foreground": "#000000",
+		"editorLineNumber.foreground": "#787878",
+		"editorGutter.background": "#F3F3F3",
+		"editorLineNumber.activeForeground": "#787878",
+		"editor.lineHighlightBackground": "#e8f2fe",
+		"sideBar.border": "#ECECEC"
 	},
 	"tokenColors": [
+		{
+			"name": "php-doc-type",
+			"scope": [
+				"comment.block.documentation.phpdoc.php support.class.php",
+				"comment.block.documentation.phpdoc.php keyword.other.type.php",
+				"comment.block.documentation.phpdoc.php keyword.other.array.phpdoc.php",
+				"comment.block.documentation.phpdoc.php support.other.namespace.php"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#3F55BF"
+			}
+		},
+		{
+			"name": "php-variable-global",
+			"scope": [
+				"variable.other.global.php",
+				"variable.other.global.safer.php"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#800555"
+			}
+		},
+		{
+			"name": "php-comment-line",
+			"scope": [
+				"comment.line.double-slash.php",
+				"comment.block.php"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#557F5F"
+			}
+		},
+		{
+			"name": "php-static-call",
+			"scope": [
+				"meta.method-call.static.php entity.name.function"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "php-protected",
+			"scope": [
+				"storage.modifier.php"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#22804C"
+			}
+		},
+		{
+			"name": "php-constant",
+			"scope": [
+				"constant.other.php"
+			],
+			"settings": {
+				"fontStyle": "italic",
+				"foreground": "#0000C0"
+			}
+		},
+		{
+			"name": "php-class-type-hint",
+			"scope": [
+				"support.class.php",
+				"support.other.namespace.php"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#000000"
+			}
+		},
+		{
+			"name": "php-property",
+			"scope": [
+				"variable.other.property.php"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#0000C0"
+			}
+		},
+		{
+			"name": "php-empty",
+			"scope": [
+				"support.function.construct.php"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#800555"
+			}
+		},
+		{
+			"name": "php-begin",
+			"scope": [
+				"punctuation.section.embedded.begin.php"
+			],
+			"settings": {
+				"fontStyle": "",
+				"foreground": "#FF0000"
+			}
+		},
+		{
+			"name": "php-comments",
+			"scope": [
+				"keyword.other.phpdoc.php"
+			],
+			"settings": {
+				"fontStyle": "bold",
+				"foreground": "#7F9FBF"
+			}
+		},
 		{
 			"name": "Comments",
 			"scope": [
@@ -13,7 +134,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#5F8FBF"
+				"foreground": "#3F55BF"
 			}
 		},
 		{
@@ -23,7 +144,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#2A00FF"
+				"foreground": "#0000C0"
 			}
 		},
 		{
@@ -32,7 +153,7 @@
 				"constant.character.escape",
 				"constant.other.placeholder"
 			],
-			"settings":{
+			"settings": {
 				"fontStyle": "",
 				"foreground": "#7090FF"
 			}
@@ -45,7 +166,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#FF00AA"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -73,7 +194,6 @@
 				"keyword.operator.alignof",
 				"keyword.operator.logical.python",
 				"constant.language",
-				"variable.language",
 				"keyword.declaration.function",
 				"keyword.declaration.class",
 				"keyword.declaration.struct",
@@ -107,7 +227,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#800555"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -117,7 +237,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#336633"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -127,7 +247,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#336633"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -137,7 +257,7 @@
 			],
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#336633"
+				"foreground": "#000000"
 			}
 		},
 		{
@@ -157,7 +277,7 @@
 				"entity.name.function"
 			],
 			"settings": {
-				"fontStyle": "bold",
+				"fontStyle": "",
 				"foreground": "#000000"
 			}
 		},
@@ -198,9 +318,9 @@
 				"support.type.python",
 				"support.type.posix-reserved"
 			],
-			"settings":{
-				"foreground": "#642880",
-				"fontStyle": "bold"
+			"settings": {
+				"foreground": "#000000",
+				"fontStyle": "italic"
 			}
 		},
 		{
@@ -221,7 +341,7 @@
 			"scope": [
 				"entity.name.function.decorator"
 			],
-			"settings":{
+			"settings": {
 				"foreground": "#7D7D7D",
 				"fontStyle": "italic"
 			}
@@ -231,7 +351,7 @@
 			"scope": [
 				"string.quoted.docstring"
 			],
-			"settings":{
+			"settings": {
 				"foreground": "#406080",
 				"fontStyle": ""
 			}
@@ -251,7 +371,7 @@
 			"scope": [
 				"entity.other.attribute-name"
 			],
-			"settings":{
+			"settings": {
 				"foreground": "#800555",
 				"fontStyle": ""
 			}
@@ -351,10 +471,9 @@
 				"support"
 			],
 			"settings": {
-				"foreground": "#336633",
+				"foreground": "#000000",
 				"fontStyle": ""
 			}
 		}
 	]
 }
-
