@@ -8,6 +8,12 @@
 		"editorGutter.background": "#F3F3F3",
 		"editorLineNumber.activeForeground": "#787878",
 		"editor.lineHighlightBackground": "#e8f2fe",
+		"editor.findMatchBackground": "#ceccf7",
+		"editor.selectionBackground": "#d4e8fd",
+		"editor.selectionHighlightBackground": "#f0d8a8",
+		"editor.wordHighlightBackground": "#d4d4d4",
+		"editor.wordHighlightStrongBackground": "#f0d8a8",
+		"editor.inactiveSelectionBackground": "#d4e8fd",
 		"sideBar.border": "#ECECEC"
 	},
 	"tokenColors": [
